@@ -1,0 +1,11 @@
+# 项目排除路径
+/configclient/target/
+/configserver/target/
+/consumer/target/
+/eurekaclient/target/
+/eurekaserver/target/
+/feign/target/
+/hystrix/target/
+/resttemplate/target/
+/Ribbon/target/
+/zuul/target/

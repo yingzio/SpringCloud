@@ -1,0 +1,14 @@
+server:
+  port: 8030
+spring:
+  application:
+    name: zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4399/eureka/
+  instance:
+    prefer-ip-address: true
+zuul:
+  routes:
+    client: /p/**
